@@ -1,0 +1,10 @@
+version: 2
+jobs:
+    build:
+        docker:
+            - image: theorangeone/docker-pandoc
+        steps:
+            - checkout
+            - run: cd authorized-to-keep-kit/ && ./make.sh ABC
+            - store_artifacts:
+                path: authorized-to-keep-kit/ABC.pdf
