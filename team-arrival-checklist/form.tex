@@ -1,0 +1,38 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage[default,osfigures]{opensans}
+
+\usepackage[margin=0.5in]{geometry}
+\usepackage{tabularx}
+\setlength{\parindent}{0cm}
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+\begin{document}
+
+\begin{center}
+
+    {\huge{Team Arrival Checklist}}
+
+    \medskip
+
+\end{center}
+
+When a team arrives on Saturday morning, please check them off on this sheet by filling in their time of arrival. If the sheet indicates that they have special requirements, consult the 'Team Arrival Special Kit Requirements' sheet.
+
+\begin{center}
+\begin{table}[h]
+\large
+\def\arraystretch{1.5}
+\begin{tabularx}{\textwidth}{|Y|Y|Y|}
+    \textbf{TLA} & \textbf{Time of Arrival} & \textbf{Special Requirements?} \\
+\hline
+ABC & & \\ \hline
+% Add more lines here
+\end{tabularx}
+\end{table}
+\end{center}
+
+
+\end{document}
