@@ -11,4 +11,4 @@ jobs:
             - store_artifacts:
                 path: authorized-to-keep-kit/ABC.pdf
             - store_artifacts:
-                path: kit-contents-checklist/form.tex
+                path: kit-contents-checklist/form.pdf
