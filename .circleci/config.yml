@@ -10,3 +10,5 @@ jobs:
             - run: make -C team-arrival-checklist
             - store_artifacts:
                 path: authorized-to-keep-kit/ABC.pdf
+            - store_artifacts:
+                path: team-arrival-checklist/form.pdf
