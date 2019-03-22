@@ -7,5 +7,8 @@ jobs:
             - checkout
             - run: apk add --update --no-cache texmf-dist-fontsextra
             - run: cd authorized-to-keep-kit/ && ./make.sh ABC
+            - run: make -C kit-contents-checklist
             - store_artifacts:
                 path: authorized-to-keep-kit/ABC.pdf
+            - store_artifacts:
+                path: kit-contents-checklist/form.tex
