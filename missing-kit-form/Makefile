@@ -1,6 +1,6 @@
-all: form.pdf
+all: missing-kit-form.pdf
 
 
-form.pdf: form.tex
+missing-kit-form.pdf: missing-kit-form.tex
 	pdflatex $<
 	pdflatex $<

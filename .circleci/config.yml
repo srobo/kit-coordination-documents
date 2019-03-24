@@ -11,4 +11,4 @@ jobs:
             - store_artifacts:
                 path: authorized-to-keep-kit/ABC.pdf
             - store_artifacts:
-                path: missing-kit-form/form.pdf
+                path: missing-kit-form/missing-kit-form.pdf
