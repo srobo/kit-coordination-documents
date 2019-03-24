@@ -1,6 +1,6 @@
-all: form.pdf
+all: kit-contents-checklist.pdf
 
 
-form.pdf: form.tex
+kit-contents-checklist.pdf: kit-contents-checklist.tex
 	pdflatex $<
 	pdflatex $<
