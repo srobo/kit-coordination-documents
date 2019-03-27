@@ -1,6 +1,6 @@
-all: form.pdf
+all: team-arrival-checklist.pdf
 
 
-form.pdf: form.tex
+team-arrival-checklist.pdf: team-arrival-checklist.tex
 	pdflatex $<
 	pdflatex $<
