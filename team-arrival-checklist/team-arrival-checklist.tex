@@ -4,10 +4,8 @@
 \usepackage[default,osfigures]{opensans}
 
 \usepackage[margin=0.5in]{geometry}
-\usepackage{tabularx}
+\usepackage{ltablex}
 \setlength{\parindent}{0cm}
-
-\newcolumntype{Y}{>{\centering\arraybackslash}X}
 
 \begin{document}
 
@@ -24,19 +22,14 @@ When a team arrives, please check them off on this sheet by filling in their tim
 
 {\large{Date}: \hrulefill}
 
-\begin{center}
-\begin{table}[h]
-\hrule
 \large
 \def\arraystretch{1.5}
-\begin{tabularx}{\textwidth}{|Y|Y|Y|}
+\begin{tabularx}{\textwidth}{|c|c|c|}
     \textbf{TLA} & \textbf{Time of Arrival} & \textbf{Special Requirements?} \\
 \hline
 ABC & & \\ \hline
 % Add more lines here
 \end{tabularx}
-\end{table}
-\end{center}
 
 
 \end{document}
