@@ -13,7 +13,7 @@ jobs:
             - store_artifacts:
                 path: authorized-to-keep-kit/ABC.pdf
             - store_artifacts:
-                path: overnight-battery-loan/form.pdf
+                path: overnight-battery-loan/overnight-battery-loan.pdf
             - store_artifacts:
                 path: missing-kit-form/missing-kit-form.pdf
             - store_artifacts:

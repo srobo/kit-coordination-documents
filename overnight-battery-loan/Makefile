@@ -1,6 +1,6 @@
-all: form.pdf
+all: overnight-battery-loan.pdf
 
 
-form.pdf: form.tex
+overnight-battery-loan.pdf: overnight-battery-loan.tex
 	pdflatex $<
 	pdflatex $<
