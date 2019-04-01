@@ -7,12 +7,15 @@ jobs:
             - checkout
             - run: apk add --update --no-cache texmf-dist-fontsextra
             - run: cd authorized-to-keep-kit/ && ./make.sh ABC
+            - run: cd kit-return-form/ && ./make.sh ABC
             - run: make -C overnight-battery-loan
             - run: make -C kit-contents-checklist
             - run: make -C missing-kit-form
             - run: make -C team-arrival-checklist
             - store_artifacts:
                 path: authorized-to-keep-kit/ABC.pdf
+            - store_artifacts:
+                path: kit-return-form/ABC.pdf
             - store_artifacts:
                 path: overnight-battery-loan/overnight-battery-loan.pdf
             - store_artifacts:
